@@ -1,6 +1,6 @@
 {
   "homepage": "https://devfolio.jimbrig.com/",
-  "name": "DevFolio",
+  "name": "devfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
