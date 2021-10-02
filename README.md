@@ -1,5 +1,7 @@
 # Software Developer Folio
 
+[![Build and Deploy](https://github.com/jimbrig/devpholio/actions/workflows/deploy.yml/badge.svg)](https://github.com/jimbrig/devpholio/actions/workflows/deploy.yml)
+
 - <https://devfolio.jimbrig.com/>
 
 ## Tech Stack
