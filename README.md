@@ -1,6 +1,6 @@
 # Software Developer Folio
 
-<p align="center"><em>Check out my portfolio at <a href="https://devfolio.jimbrig.com/">devfolio.jimbrig.com</a></em></p>
+- <https://devfolio.jimbrig.com/>
 
 ## Tech Stack
 
