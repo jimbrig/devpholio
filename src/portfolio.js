@@ -404,8 +404,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1 (678)-491-4856",
+  email_address: "jimmy.briggs@jimbrig.com"
 };
 
 // Twitter Section
