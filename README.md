@@ -118,33 +118,9 @@ See [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#gi
 
 ### GitHub Actions
 
-This section guides you to deploy your portfolio on Github pages.
+The devfolio is automatically deployed using GitHub Actions and Github pages.
 
-- Navigate to `package.json` and enter your domain name instead of `https://developerfolio.js.org/` in `homepage` variable. For example, if you want your site to be `https://<your-username>.github.io/developerFolio`, add the same to the homepage section of `package.json`.
-
-- In short you can also add `/devloperFolio` to `package.json` as both are exactly same. Upon doing so, you tell `create-react-app` to add the path assets accordingly.
-
-- Optionally, configure the domain. You can configure a custom domain with GitHub Pages by adding a `CNAME` file to the `public/` folder.
-
-- Follow through the guide to setup GitHub pages from the official CRA docs [here](https://create-react-app.dev/docs/deployment/#github-pages).
-
-### Deploying to Netlify
-
-You could also host directly with Netlify by linking your own repository.
-
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/saadpasta/developerFolio)
-
-For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
-
-## Original Project
-
-<table>
-  <tr>
-    <td align="center"><a href="http://saadpasta.github.io"><img src="https://avatars2.githubusercontent.com/u/23307811?v=4" width="100px;" alt=""/><br /><sub><b>Saad Pasta</b></sub></a></td>
-    <td align="center"><a href="https://github.com/kartikcho"><img src="https://avatars1.githubusercontent.com/u/48270786?v=4" width="100px;" alt=""/><br /><sub><b>Kartik Choudhary</b></sub></a></td>
-    <td align="center"><a href="https://naveen.syrusdark.website"><img src="https://avatars1.githubusercontent.com/u/49693820?v=4" width="100px;" alt=""/><br /><sub><b>Naveen M K</b></sub></a></td>
-    <td align="center"><a href="http://www.muhammadhasham.com"><img src="https://avatars0.githubusercontent.com/u/17927649?v=4" width="100px;" alt=""/><br /><sub><b>Muhammad Hasham</b></sub></a></td>
-  </tr>
-</table>
-
+- In `package.json` domain name needs to be correct in the `homepage` variable: `https://devfolio.jimbrig.com/`.
+- Configure the custom domain for GitHub pages by adding a `CNAME` file to the `public/` folder.
+- Guide to setup GitHub pages from the official CRA docs [here](https://create-react-app.dev/docs/deployment/#github-pages).
 
