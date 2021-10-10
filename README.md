@@ -2,7 +2,23 @@
 
 [![Build and Deploy](https://github.com/jimbrig/devpholio/actions/workflows/deploy.yml/badge.svg)](https://github.com/jimbrig/devpholio/actions/workflows/deploy.yml)
 
-- <https://devfolio.jimbrig.com/>
+Live website: *<https://devfolio.jimbrig.com/>*
+
+<!-- START doctoc generated TOC -->
+
+## Table of Contents
+
+- [Software Developer Folio](#software-developer-folio)
+  - [Tech Stack](#tech-stack)
+  - [Portfolio Sections](#portfolio-sections)
+    - [Portfolio.js](#portfoliojs)
+  - [Installation](#installation)
+    - [Git](#git)
+    - [Docker](#docker)
+  - [Deployment](#deployment)
+    - [GitHub Actions](#github-actions)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Tech Stack
 
@@ -58,7 +74,7 @@ const contactInfo = { .... }
 const twitterDetails = { ... }
 ```
 
-Additionally, `index.html` is customized to alter the title and metadata associated with the site for more accurrate SEO.
+Additionally, `index.html` is customized to alter the title and metadata associated with the site for more accurate SEO.
 
 ## Installation
 
