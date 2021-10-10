@@ -8,15 +8,14 @@ Live website: *<https://devfolio.jimbrig.com/>*
 
 ## Table of Contents
 
-- [Software Developer Folio](#software-developer-folio)
-  - [Tech Stack](#tech-stack)
-  - [Portfolio Sections](#portfolio-sections)
-    - [Portfolio.js](#portfoliojs)
-  - [Installation](#installation)
-    - [Git](#git)
-    - [Docker](#docker)
-  - [Deployment](#deployment)
-    - [GitHub Actions](#github-actions)
+- [Tech Stack](#tech-stack)
+- [Portfolio Sections](#portfolio-sections)
+  - [Portfolio.js](#portfoliojs)
+- [Installation](#installation)
+  - [Git](#git)
+  - [Docker](#docker)
+- [Deployment](#deployment)
+  - [GitHub Actions](#github-actions)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
