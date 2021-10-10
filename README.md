@@ -34,11 +34,9 @@
 
 All content is essentially created via the `/src/portfolio.js` file.
 
-Additionally, `index.html` is customized to alter the title and metadata associated with the site for more accurrate SEO.
-
-`portoflio.js`:
-
 ```javascript
+# portoflio.js
+
 const greeting = { ... };
 
 const socialMediaLinks = { ... }
@@ -61,6 +59,8 @@ const contactInfo = { .... }
 
 const twitterDetails = { ... }
 ```
+
+Additionally, `index.html` is customized to alter the title and metadata associated with the site for more accurrate SEO.
 
 ## Installation
 
