@@ -30,65 +30,18 @@
 ✔️ Twitter Timeline\
 ✔️ Github Profile
 
-## Installation
+### Portfolio.js
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+All content is essentially created via the `/src/portfolio.js` file.
 
-Dependencies:
+Additionally, `index.html` is customized to alter the title and metadata associated with the site for more accurrate SEO.
 
-- [Git](https://git-scm.com)
-- [Node.js](https://nodejs.org/en/download/)
-- [npm](http://npmjs.com)
-- [Docker](https://www.docker.com/products/docker-desktop)
-
-```
-node@v10.16.0 or higher
-npm@6.9.0 or higher
-git@2.17.1 or higher
-```
-
-### Docker
-
-- Pull pre-built container from Github Container Registry, Run, Launch:
-
-```powershell
-docker pull ghcr.io/jimbrig/devpholio:latest
-docker run -t -p 3000:3000 devpholio:latest
-start http://localhost:3000
-```
-
-- Build and Run Locally:
-
-```powershell
-docker build -t devfolio:latest .
-docker run -t -p 3000:3000 devfolio:latest
-```
-
-## Customize
-
-Personalize page content in `/src/portfolio.js` & modify it as per your need.
-
-You will also need to modify `index.html` to change the title and metadata to provide accurate SEO for your personal portfolio.
+- Source Code Overview in `portoflio.js` - Summarizes the Sections Displayed in the Website:
 
 ```javascript
-/* Change this file to get your Personal Porfolio */
+const greeting = { ... };
 
-const greeting = {
-  /* Your Summary And Greeting Section */
-  title: "Hi all I'm Saad",
-  subTitle: emoji("A passionate Full Stack Software Developer 🚀"),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
-};
-
-const socialMediaLinks = {
-  /* Your Social Media Link */
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
-};
-
+const socialMediaLinks = { ... }
 
 const skillsSection = { .... }
 
@@ -107,7 +60,42 @@ const blogSection = { .... }
 const contactInfo = { .... }
 
 const twitterDetails = { ... }
+```
 
+## Installation
+
+Dependencies:
+
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/en/download/)
+- [npm](http://npmjs.com)
+- [Docker](https://www.docker.com/products/docker-desktop)
+
+```
+node@v10.16.0 or higher
+npm@6.9.0 or higher
+git@2.17.1 or higher
+```
+
+### Git
+
+Clone via `git` and run via `Docker` or run directly via `npm install` > `npm start` | `npm build` | `npm run`.
+
+### Docker
+
+- Pull pre-built container from Github Container Registry, Run, Launch:
+
+```powershell
+docker pull ghcr.io/jimbrig/devpholio:latest
+docker run -t -p 3000:3000 devpholio:latest
+start http://localhost:3000
+```
+
+- Build and Run Locally:
+
+```powershell
+docker build -t devfolio:latest .
+docker run -t -p 3000:3000 devfolio:latest
 ```
 
 ## Deployment
@@ -123,4 +111,9 @@ The devfolio is automatically deployed using GitHub Actions and Github pages.
 - In `package.json` domain name needs to be correct in the `homepage` variable: `https://devfolio.jimbrig.com/`.
 - Configure the custom domain for GitHub pages by adding a `CNAME` file to the `public/` folder.
 - Guide to setup GitHub pages from the official CRA docs [here](https://create-react-app.dev/docs/deployment/#github-pages).
+
+
+***
+
+Jimmy Briggs | 2021
 
