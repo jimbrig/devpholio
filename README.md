@@ -35,8 +35,6 @@
 All content is essentially created via the `/src/portfolio.js` file.
 
 ```javascript
-# portoflio.js
-
 const greeting = { ... };
 
 const socialMediaLinks = { ... }
