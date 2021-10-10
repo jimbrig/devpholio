@@ -36,7 +36,7 @@ All content is essentially created via the `/src/portfolio.js` file.
 
 Additionally, `index.html` is customized to alter the title and metadata associated with the site for more accurrate SEO.
 
-- Source Code Overview in `portoflio.js` - Summarizes the Sections Displayed in the Website:
+`portoflio.js`:
 
 ```javascript
 const greeting = { ... };
