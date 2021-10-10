@@ -147,6 +147,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     },
     {
+      skillName: "Terraform",
+      fontAwesomeClassname: "fab fa-tumblr"
+    },
+    {
       skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
     }
@@ -179,28 +183,28 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "50%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "80%"
-    },
-    {
       Stack: "R Programming Language",
-      progressPercentage: "90%"
+      progressPercentage: "100%"
     },
     {
       Stack: "PowerShell Scripting",
-      progressPercentage: "80%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Cloud Technologies",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Backend/System Design",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "75%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Windows Imaging and Deployment",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -292,14 +296,14 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, Awards, etc.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Acturial Exam P",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Passed Exam P Actuarial Exam through the SOA.",
+      image: require("./assets/images/soa.webp"),
       footerLink: [
         {
           name: "Certification",
@@ -341,7 +345,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -365,7 +369,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
