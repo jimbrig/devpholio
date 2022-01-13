@@ -12,12 +12,13 @@ const illustration = {
 
 const greeting = {
   username: "jimbrig",
-  title: "Hi all, I'm Jimmy",
+  title: "Welcome to my Devfolio, I'm Jimmy",
   subTitle: emoji(
-    "Creative and entrepreneurial Software Engineer and Actuarial Scientist with background working in dynamic and progressive environments as both an actuary and a developer in large and small organizations."
+    "Creative, entrepreneurial Software Engineer and Actuarial Scientist with a strong background working in dynamic and progressive environments as both an actuary and a developer."
   ),
   resumeLink:
-    "https://www.linkedin.com/in/jimbrig/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAAAlqbqYBU8QLns8RPbmzUFtkWWt6c8aUe44,1635461414533)/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bjup3vJfLT4yZzYqPH5n5PA%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-featured_item_detail_view", // Set to empty to hide the button
+    "assets/Resume.pdf",
+    // "https://www.linkedin.com/in/jimbrig/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAAAlqbqYBU8QLns8RPbmzUFtkWWt6c8aUe44,1635461414533)/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bjup3vJfLT4yZzYqPH5n5PA%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-featured_item_detail_view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -42,6 +43,7 @@ const skillsSection = {
   skills: [
     emoji("🕸️ Develop highly interactive, data-intensive web, desktop, and mobile applications and interfaces."),
     emoji("💻 Provision, automate, and maintain machines operating on Windows through advanced PowerShell scripting and customized Windows image builds."),
+    emoji("🧠 Problem Solving in a variety of contexts using past experiences and aquired skills along with a scientific, mathematical frame of mind.")
     emoji("⚡ Integration of third party services and APIs such as Auth0, Sanity.io, Cloudflare, Firebase, AWS, Digital Ocean, Heroku, GCP, Azure, etc."),
     emoji("🎖️ Lead teams and teach others through past experiences.")
   ],
@@ -180,27 +182,27 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "50%" //Insert relative proficiency in percentage
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "80%"
-    },
-    {
-      Stack: "R Programming Language",
       progressPercentage: "90%"
     },
     {
+      Stack: "R Programming Language",
+      progressPercentage: "100%"
+    },
+    {
       Stack: "PowerShell Scripting",
-      progressPercentage: "80%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Cloud Technologies",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -260,13 +262,13 @@ const bigProjects = {
   subtitle: "Some of my larger undertakings..",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/powwater.png"),
+      projectName: "Powwater System Design - Project Lead",
+      projectDesc: "Created and designed a fully functional sytem of mobile and desktop applications with the purpose of delivering water to customers throughout the greater Mombasa, Kenya area.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Powwater.com",
+          url: "https://powwater.com/"
         }
         //  you can add extra buttons here.
       ]
@@ -283,7 +285,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
