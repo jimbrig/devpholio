@@ -43,7 +43,7 @@ const skillsSection = {
   skills: [
     emoji("🕸️ Develop highly interactive, data-intensive web, desktop, and mobile applications and interfaces."),
     emoji("💻 Provision, automate, and maintain machines operating on Windows through advanced PowerShell scripting and customized Windows image builds."),
-    emoji("🧠 Problem Solving in a variety of contexts using past experiences and aquired skills along with a scientific, mathematical frame of mind.")
+    emoji("🧠 Problem Solving in a variety of contexts using past experiences and aquired skills along with a scientific, mathematical frame of mind."),
     emoji("⚡ Integration of third party services and APIs such as Auth0, Sanity.io, Cloudflare, Firebase, AWS, Digital Ocean, Heroku, GCP, Azure, etc."),
     emoji("🎖️ Lead teams and teach others through past experiences.")
   ],
