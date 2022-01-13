@@ -218,10 +218,10 @@ const workExperiences = {
       company: "Oliver Wyman",
       companylogo: require("./assets/images/owlogo.png"),
       date: "June 2015 – October 2020",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "P&C Specialist for Actuarial Loss Reserving, Rate Making, Allocations, and general practices across all non-life coverages.",
+        "Developed and maintained web application dashboards for MPL Liability, Property Allocations, KPI Tracking, and more.",
+        "Trained and onboarding new developers interested in actuarial modernization technologies."
       ]
     },
     {
@@ -229,20 +229,36 @@ const workExperiences = {
       company: "Tychobra",
       companylogo: require("./assets/images/tychobra.png"),
       date: "November 2020 – June 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Built, maintained, and designed multiple data-driven R Shiny web applications.",
+        "Lead the actuarial outreach initiative to reach out to actuarial clients for insurance based solutions.",
+        "Developed various portions of Tychobra's core product: Polished."
+      ]
     },
     {
-      role: "Software Engineer | System Design Specialist | Database Administration",
+      role: "Technology Project Lead",
       company: "Powwater",
       companylogo: require("./assets/images/pow.png"),
       date: "January 2021 – May 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Created and designed a fully functional system of mobile and web applications with the purpose of delivering water to customers throughout the greater Mombasa, Kenya area."
+    },
+    {
+      role: "Freelance Software Engineer",
+      company: "Microsoft",
+      companylogo: require("./assets/images/microsoft.jpg"),
+      date: "June 2021 - August 2021",
+      desc: "Reviewed and developed the core Windows 11 OS for Windows Developer Insiders as well as tested various functionalities and enhancements in conjunction with the Microsoft Open Source Developers."
     },
     {
       role: "Senior Associate | Actuarial Modernization",
       company: "PwC",
-      companyLogo: require("./assets/images/pwc.png"),
-      date: "August 2021 - Current"
+      companyLogo: require("./assets/images/pwc-large.png"),
+      date: "August 2021 - Current",
+      descBullets: [
+        "Lead technology specialist for large digital platform migrations to the cloud for life, health, and reinsurance clients.",
+        "Developed innovative P&C Modernization Backend solutions including Python Flask Applications, SQL Server Databases, and REST APIs.",
+        "Leader in the Actuarial Modernization department."
+      ]
     }
   ]
 };
@@ -294,11 +310,11 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, and Awards",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
