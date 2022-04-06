@@ -7,7 +7,7 @@
 ***
 
 - Live website: _<https://devfolio.jimbrig.com/>_
-- View the [Changelog](Changelog.md) for details on this project's progression over time.
+- View the [Changelog](CHANGELOG.md) for details on this project's progression over time.
 - Docker container images available in [this repo's container registry](https://github.com/jimbrig/devpholio/pkgs/container/devpholio).
 
 
