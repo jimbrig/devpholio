@@ -2,10 +2,14 @@
 
 [![Build and Deploy](https://github.com/jimbrig/devpholio/actions/workflows/deploy.yml/badge.svg)](https://github.com/jimbrig/devpholio/actions/workflows/deploy.yml)
 [![Check Format](https://github.com/jimbrig/devpholio/actions/workflows/prettier.yml/badge.svg)](https://github.com/jimbrig/devpholio/actions/workflows/prettier.yml)
+[![Generate CHANGELOG.md](https://github.com/jimbrig/devpholio/actions/workflows/cliff.yml/badge.svg)](https://github.com/jimbrig/devpholio/actions/workflows/cliff.yml)
 
 ***
 
-Live website: _<https://devfolio.jimbrig.com/>_
+- Live website: _<https://devfolio.jimbrig.com/>_
+- View the [Changelog](Changelog.md) for details on this project's progression over time.
+- Docker container images available in [this repo's container registry](https://github.com/jimbrig/devpholio/pkgs/container/devpholio).
+
 
 <!-- START doctoc generated TOC -->
 
