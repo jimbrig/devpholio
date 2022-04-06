@@ -29,6 +29,8 @@ Live website: *<https://devfolio.jimbrig.com/>*
 - [react-headroom](https://github.com/KyleAMathews/react-headroom)
 - [color-thief](https://github.com/lokesh/color-thief)
 
+![](https://awesome-stack.glitch.me/api/v1/cards?name=jimbrig&repos=devpholio&theme=dracula)
+
 ## Portfolio Sections
 
 ✔️ Summary and About me\
