@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 
 - Add badges to README
 - Add docker and changelog to readme
+- Fix README links
 
 ### Features
 
@@ -16,6 +17,7 @@ All notable changes to this project will be documented in this file.
 ### Miscellaneous Tasks
 
 - Autopublish 2022-04-06T01:05:27Z
+- Autopublish 2022-04-06T01:08:20Z
 
 ### Config
 
