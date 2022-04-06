@@ -1,6 +1,9 @@
 # Software Developer Folio
 
 [![Build and Deploy](https://github.com/jimbrig/devpholio/actions/workflows/deploy.yml/badge.svg)](https://github.com/jimbrig/devpholio/actions/workflows/deploy.yml)
+[![Check Format](https://github.com/jimbrig/devpholio/actions/workflows/prettier.yml/badge.svg)](https://github.com/jimbrig/devpholio/actions/workflows/prettier.yml)
+
+***
 
 Live website: _<https://devfolio.jimbrig.com/>_
 
