@@ -6,11 +6,16 @@ All notable changes to this project will be documented in this file.
 ### Documentation
 
 - Add badges to README
+- Add docker and changelog to readme
 
 ### Features
 
 - Add git-cliff automation config file
 - Add new gh-action for git-cliff changelog
+
+### Miscellaneous Tasks
+
+- Autopublish 2022-04-06T01:05:27Z
 
 ### Config
 
