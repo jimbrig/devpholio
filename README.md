@@ -2,7 +2,7 @@
 
 [![Build and Deploy](https://github.com/jimbrig/devpholio/actions/workflows/deploy.yml/badge.svg)](https://github.com/jimbrig/devpholio/actions/workflows/deploy.yml)
 
-Live website: *<https://devfolio.jimbrig.com/>*
+Live website: _<https://devfolio.jimbrig.com/>_
 
 <!-- START doctoc generated TOC -->
 
@@ -127,8 +127,6 @@ The devfolio is automatically deployed using GitHub Actions and Github pages.
 - Configure the custom domain for GitHub pages by adding a `CNAME` file to the `public/` folder.
 - Guide to setup GitHub pages from the official CRA docs [here](https://create-react-app.dev/docs/deployment/#github-pages).
 
-
-***
+---
 
 Jimmy Briggs | 2021
-
