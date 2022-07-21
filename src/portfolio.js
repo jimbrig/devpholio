@@ -16,7 +16,7 @@ const greeting = {
   subTitle: emoji(
     "Creative, entrepreneurial Software Engineer and Actuarial Scientist with a strong background working in dynamic and progressive environments as both an actuary and a developer."
   ),
-  resumeLink: "assets/Resume.pdf",
+  resumeLink: "https://github.com/jimbrig/devpholio/blob/main/src/assets/Resume.pdf",
   // "https://www.linkedin.com/in/jimbrig/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAAAlqbqYBU8QLns8RPbmzUFtkWWt6c8aUe44,1635461414533)/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bjup3vJfLT4yZzYqPH5n5PA%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-featured_item_detail_view", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
