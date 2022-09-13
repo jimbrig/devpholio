@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.9b757d11.css",
-    "main.js": "/static/js/main.fcab52b7.js",
+    "main.css": "/static/css/main.189eb8cc.css",
+    "main.js": "/static/js/main.d6f6bdf0.js",
     "static/css/141.27c49f1b.chunk.css": "/static/css/141.27c49f1b.chunk.css",
-    "static/js/141.23474ec2.chunk.js": "/static/js/141.23474ec2.chunk.js",
+    "static/js/141.6cd0f8a0.chunk.js": "/static/js/141.6cd0f8a0.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/static/css/769.70f3b610.chunk.css",
-    "static/js/769.0a3102cb.chunk.js": "/static/js/769.0a3102cb.chunk.js",
+    "static/js/769.35ccf565.chunk.js": "/static/js/769.35ccf565.chunk.js",
     "static/media/pwc-large.png": "/static/media/pwc-large.b233f8c6107892fb5a65.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -23,15 +23,15 @@
     "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.9b757d11.css.map": "/static/css/main.9b757d11.css.map",
-    "main.fcab52b7.js.map": "/static/js/main.fcab52b7.js.map",
+    "main.189eb8cc.css.map": "/static/css/main.189eb8cc.css.map",
+    "main.d6f6bdf0.js.map": "/static/js/main.d6f6bdf0.js.map",
     "141.27c49f1b.chunk.css.map": "/static/css/141.27c49f1b.chunk.css.map",
-    "141.23474ec2.chunk.js.map": "/static/js/141.23474ec2.chunk.js.map",
+    "141.6cd0f8a0.chunk.js.map": "/static/js/141.6cd0f8a0.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/static/css/769.70f3b610.chunk.css.map",
-    "769.0a3102cb.chunk.js.map": "/static/js/769.0a3102cb.chunk.js.map"
+    "769.35ccf565.chunk.js.map": "/static/js/769.35ccf565.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b757d11.css",
-    "static/js/main.fcab52b7.js"
+    "static/css/main.189eb8cc.css",
+    "static/js/main.d6f6bdf0.js"
   ]
 }
