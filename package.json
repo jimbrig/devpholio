@@ -1,7 +1,7 @@
 {
-  "homepage": "https://devfolio.jimbrig.com/",
-  "name": "devfolio",
-  "version": "0.1.0",
+  "homepage": "https://docs.jimbrig.com/devpholio",
+  "name": "Dephfolio",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "colorthief": "^2.3.0",
@@ -24,7 +24,7 @@
     "predeploy": "npm run build",
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -b main -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
