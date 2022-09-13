@@ -16,10 +16,10 @@ jobs:
 
       - uses: actions/setup-node@v2-beta
         with:
-          node-version: '12'
+          node-version: '18'
 
       - name: Install Prettier
-        run: npm install -g prettier
+        run: npm install -g prettier --force
 
       - name: Check Format
         run: |
